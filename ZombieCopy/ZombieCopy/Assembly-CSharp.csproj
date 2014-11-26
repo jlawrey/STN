@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{9BF78030-696E-8E01-27D8-EBD98A3945AA}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_6_0;UNITY_4_6;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;DEVELOPMENT_BUILD;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Camera\CameraFollow.cs" />
+     <Compile Include="Assets\EnemyManager.cs" />
+     <Compile Include="Assets\JEFF_Scripts\Aim_v2.cs" />
+     <Compile Include="Assets\JEFF_Scripts\CameraFollow.cs" />
+     <Compile Include="Assets\JEFF_Scripts\EnemyAttack.cs" />
+     <Compile Include="Assets\JEFF_Scripts\EnemyHealth.cs" />
+     <Compile Include="Assets\JEFF_Scripts\EnemyMovement.cs" />
+     <Compile Include="Assets\JEFF_Scripts\GameOverManager.cs" />
+     <Compile Include="Assets\JEFF_Scripts\PlayerHealth.cs" />
+     <Compile Include="Assets\JEFF_Scripts\PlayerMovement.cs" />
+     <Compile Include="Assets\JEFF_Scripts\PlayerShooting.cs" />
+     <Compile Include="Assets\JEFF_Scripts\QuitButton.cs" />
+     <Compile Include="Assets\JEFF_Scripts\ScoreManager.cs" />
+     <Compile Include="Assets\JEFF_Scripts\SpawnKill.cs" />
+     <Compile Include="Assets\JEFF_Scripts\SpawnKill1.cs" />
+     <Compile Include="Assets\JEFF_Scripts\SpawnKill10.cs" />
+     <Compile Include="Assets\JEFF_Scripts\SpawnKill11.cs" />
+     <Compile Include="Assets\JEFF_Scripts\SpawnKill12.cs" />
+     <Compile Include="Assets\JEFF_Scripts\SpawnKill13.cs" />
+     <Compile Include="Assets\JEFF_Scripts\SpawnKill14.cs" />
+     <Compile Include="Assets\JEFF_Scripts\SpawnKill15.cs" />
+     <Compile Include="Assets\JEFF_Scripts\SpawnKill2.cs" />
+     <Compile Include="Assets\JEFF_Scripts\SpawnKill3.cs" />
+     <Compile Include="Assets\JEFF_Scripts\SpawnKill4.cs" />
+     <Compile Include="Assets\JEFF_Scripts\SpawnKill5.cs" />
+     <Compile Include="Assets\JEFF_Scripts\SpawnKill6.cs" />
+     <Compile Include="Assets\JEFF_Scripts\SpawnKill7.cs" />
+     <Compile Include="Assets\JEFF_Scripts\SpawnKill8.cs" />
+     <Compile Include="Assets\JEFF_Scripts\SpawnKill9.cs" />
+     <Compile Include="Assets\JEFF_Scripts\TimerText.cs" />
+     <Compile Include="Assets\JEFF_Scripts\spawnActive.cs" />
+     <Compile Include="Assets\Mecanim Warrior Anim Free\Script\PlayGUI.cs" />
+     <Compile Include="Assets\MouseAim.cs" />
+     <Compile Include="Assets\PlayerHealth.cs" />
+     <Compile Include="Assets\Strafe.cs" />
+     <Compile Include="Assets\ThemeMusicPlay.cs" />
+     <Compile Include="Assets\ThirdPersonCharacter_V2.cs" />
+     <Compile Include="Assets\ThirdPersonUserControl.cs" />
+     <Compile Include="Assets\UIManagerScript.cs" />
+     <None Include="Assets\Skyboxes 1\PanoramaToCubemap\Documents\PanoramaToCubemap_en.txt" />
+     <None Include="Assets\Skyboxes 1\PanoramaToCubemap\Documents\PanoramaToCubemap_ja.txt" />
+     <None Include="Assets\San Francisco House\readme.txt" />
+     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\FreeMachineGun\Shader\BDCS.shader" />
+     <None Include="Assets\Necromancer GUI\Kingthings.txt" />
+     <None Include="Assets\Necromancer GUI\Readme.txt" />
+     <None Include="Assets\FreeMachineGun\documentation.txt" />
+     <None Include="Assets\Cartoon Soldier\Readme.txt" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.0/UnityEngine.UI.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
