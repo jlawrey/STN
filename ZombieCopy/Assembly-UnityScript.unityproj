@@ -67,6 +67,7 @@
      <Compile Include="Assets\Cartoon Soldier\Scripts\ik\inverseKinematics.js" />
      <Compile Include="Assets\MouseOrbit_1.js" />
      <Compile Include="Assets\Necromancer GUI\GUITestScript.js" />
+     <None Include="Assets\Standard Assets\water well\readme.txt" />
      <None Include="Assets\Skyboxes 1\PanoramaToCubemap\Documents\PanoramaToCubemap_en.txt" />
      <None Include="Assets\Skyboxes 1\PanoramaToCubemap\Documents\PanoramaToCubemap_ja.txt" />
      <None Include="Assets\San Francisco House\readme.txt" />

@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Skyboxes 1\PanoramaToCubemap\Editor\PanoramaToCubemap.cs" />
+     <None Include="Assets\Standard Assets\water well\readme.txt" />
      <None Include="Assets\Skyboxes 1\PanoramaToCubemap\Documents\PanoramaToCubemap_en.txt" />
      <None Include="Assets\Skyboxes 1\PanoramaToCubemap\Documents\PanoramaToCubemap_ja.txt" />
      <None Include="Assets\San Francisco House\readme.txt" />

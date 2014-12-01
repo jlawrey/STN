@@ -77,8 +77,8 @@
      <Compile Include="Assets\JEFF_Scripts\SpawnKill9.cs" />
      <Compile Include="Assets\JEFF_Scripts\TimerText.cs" />
      <Compile Include="Assets\JEFF_Scripts\spawnActive.cs" />
-     <Compile Include="Assets\JeremyModels\Food\JM_FoodScript.cs" />
-     <Compile Include="Assets\JeremyModels\Food\JM_FoodScript2.cs" />
+     <Compile Include="Assets\JM_Models\Food\JM_FoodScript.cs" />
+     <Compile Include="Assets\JM_Models\Food\JM_FoodScript2.cs" />
      <Compile Include="Assets\Mecanim Warrior Anim Free\Script\PlayGUI.cs" />
      <Compile Include="Assets\MouseAim.cs" />
      <Compile Include="Assets\PlayerHealth.cs" />
@@ -87,6 +87,7 @@
      <Compile Include="Assets\ThirdPersonCharacter_V2.cs" />
      <Compile Include="Assets\ThirdPersonUserControl.cs" />
      <Compile Include="Assets\UIManagerScript.cs" />
+     <None Include="Assets\Standard Assets\water well\readme.txt" />
      <None Include="Assets\Skyboxes 1\PanoramaToCubemap\Documents\PanoramaToCubemap_en.txt" />
      <None Include="Assets\Skyboxes 1\PanoramaToCubemap\Documents\PanoramaToCubemap_ja.txt" />
      <None Include="Assets\San Francisco House\readme.txt" />
