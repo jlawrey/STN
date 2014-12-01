@@ -77,6 +77,7 @@
      <Compile Include="Assets\JEFF_Scripts\SpawnKill9.cs" />
      <Compile Include="Assets\JEFF_Scripts\TimerText.cs" />
      <Compile Include="Assets\JEFF_Scripts\spawnActive.cs" />
+     <Compile Include="Assets\JM_MainMenuScript.cs" />
      <Compile Include="Assets\JM_Models\Food\JM_FoodScript.cs" />
      <Compile Include="Assets\JM_Models\Food\JM_FoodScript2.cs" />
      <Compile Include="Assets\Mecanim Warrior Anim Free\Script\PlayGUI.cs" />
