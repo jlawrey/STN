@@ -57,12 +57,16 @@
      <None Include="Assets\Necromancer GUI\Kingthings.txt" />
      <None Include="Assets\Necromancer GUI\Readme.txt" />
      <None Include="Assets\FreeMachineGun\documentation.txt" />
+     <None Include="Assets\_Builds\Build_01_Data\Mono\etc\mono\mconfig\config.xml" />
      <None Include="Assets\Cartoon Soldier\Readme.txt" />
+ <Reference Include="Assembly-CSharp">
+ <HintPath>C:/Users/Jeremy/Documents/GitHub/STN/ZombieCopy/Assets/_Builds/Build_01_Data/Managed/Assembly-CSharp.dll</HintPath>
+ </Reference>
  <Reference Include="Assembly-UnityScript">
- <HintPath>C:/Users/Jeremy/Documents/GitHub/STN/ZombieCopy/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
+ <HintPath>C:/Users/Jeremy/Documents/GitHub/STN/ZombieCopy/Assets/_Builds/Build_01_Data/Managed/Assembly-UnityScript.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.0/UnityEngine.UI.dll</HintPath>
+ <HintPath>C:/Users/Jeremy/Documents/GitHub/STN/ZombieCopy/Assets/_Builds/Build_01_Data/Managed/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.0/Editor/UnityEditor.UI.dll</HintPath>
@@ -70,10 +74,21 @@
  <Reference Include="UnityEditor.Graphs">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
  </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp-vs.csproj">
-      <Project>{9BF78030-696E-8E01-27D8-EBD98A3945AA}</Project>      <Name>Assembly-CSharp-vs</Name>    </ProjectReference>
+ <Reference Include="System">
+ <HintPath>C:/Users/Jeremy/Documents/GitHub/STN/ZombieCopy/Assets/_Builds/Build_01_Data/Managed/System.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Core">
+ <HintPath>C:/Users/Jeremy/Documents/GitHub/STN/ZombieCopy/Assets/_Builds/Build_01_Data/Managed/System.Core.dll</HintPath>
+ </Reference>
+ <Reference Include="Boo.Lang">
+ <HintPath>C:/Users/Jeremy/Documents/GitHub/STN/ZombieCopy/Assets/_Builds/Build_01_Data/Managed/Boo.Lang.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityScript.Lang">
+ <HintPath>C:/Users/Jeremy/Documents/GitHub/STN/ZombieCopy/Assets/_Builds/Build_01_Data/Managed/UnityScript.Lang.dll</HintPath>
+ </Reference>
+ <Reference Include="Mono.Security">
+ <HintPath>C:/Users/Jeremy/Documents/GitHub/STN/ZombieCopy/Assets/_Builds/Build_01_Data/Managed/Mono.Security.dll</HintPath>
+ </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
